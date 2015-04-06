@@ -81,6 +81,8 @@
 
 - (void)setDataSource:(id <UITableViewDataSource>)newDataSource
 {
+	if (newDataSource == nil) return;
+	
 	if (newDataSource != self.collapseDataSource)
     {
 		self.collapseDataSource = newDataSource;
@@ -91,6 +93,8 @@
 
 - (void)setDelegate:(id<UITableViewDelegate>)newDelegate
 {
+	if (newDelegate == nil) return;
+	
     if (newDelegate != self.collapseDelegate)
     {
         self.collapseDelegate = newDelegate;
