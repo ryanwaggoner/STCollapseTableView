@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "iSofTom" => "thomas@isoftom.com" }
 
-  s.source       = { :git => "https://github.com/ryanwaggoner/STCollapseTableView.git", :commit => 'HEAD' }
+  s.source       = { :git => "https://github.com/ryanwaggoner/STCollapseTableView.git"}
   s.platform     = :ios, '5.0'
 
   s.source_files = 'STCollapseTableView/*.{h,m}'
